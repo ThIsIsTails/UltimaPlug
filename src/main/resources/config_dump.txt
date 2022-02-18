@@ -1,0 +1,16 @@
+
+  punish:
+    description: Ban player for time provided by administrator (Temp ban)
+    usage: "Используйте: §e/punish <player> <rule> d:0 m:0"
+    permission: ultima.punish
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.punish§8]"
+
+  unban:
+    description: Unban player
+    usage: "Используйте: §e/unban <player>"
+    permission: ultima.unban
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.unban§8]"
+
+  cords:
+    description: Send your coordinats to ur friend
+    usage: "Используйте: §e/cords <Игрок/Друг> [Сообщение если нужно]"

@@ -1,0 +1,9 @@
+discord:
+  token: "token"
+  mod-channel: id
+  pub-channel: id
+  stats-server-name: UltimaPlug made by ThIsIsTails # Server name
+
+chat:
+  local-chat-range: 40
+  global-prefix: "!"

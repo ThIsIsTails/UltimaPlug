@@ -1,0 +1,52 @@
+name: UltimaPlug
+version: '${project.version}'
+main: ru.thisistails.ultimaplug.UltimaPlug
+api-version: 1.18
+prefix: Ultima
+authors: [ ThIsIsTails ]
+description: Ultimate plugin for server
+
+commands:
+  discord:
+    description: Manage discord bot
+    permission: ultima.discord
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.discord§8]"
+    usage: "Используйте: §e/discord help"
+
+  report:
+    description: Report a player
+    usage: "Используй: §e/report <Игрок> <Причина>"
+
+  mute:
+    description: Mute a player in chat and Discord if its possible
+    usage: "Используйте: §e/mute <player> <rule> d:0 m:0 (P.s для вечного мута используйте -f)"
+    permission: ultima.mute
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.mute§8]"
+
+  unmute:
+    description: Unmute a player in chat and Discord if its possible
+    usage: "Используйте: §e/unmute <player>"
+    permission: ultima.unmute
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.unmute§8]"
+
+  kick:
+    description: Kick player from server
+    usage: "Используйте: §e/kick <player> <msg>"
+    permission: ultima.kick
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.kick§8]"
+
+  ban:
+    description: Ban player from server and give role BANNED in discord server
+    usage: "Используйте: §e/ban <player> <rule>"
+    permission: ultima.ban
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.ban§8]"
+
+  unban:
+    description: Unban player
+    usage: "Используйте: §e/unban <player>"
+    permission: ultima.unban
+    permission-message: "§cУ вас нет прав на совершение данной команды... §8[§bultima.unban§8]"
+
+  cords:
+    description: Send your coordinats to ur friend
+    usage: "Используйте: §e/cords <Игрок/Друг> [Сообщение если нужно]"
